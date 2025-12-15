@@ -18,7 +18,6 @@ Common components: `main`, `contrib`, `non-free`, `non-free-firmware`.
 
 deb http://deb.debian.org/debian  stable main contrib non-free
 
-
 Основні компоненти:
 
 - **main** — повністю вільне ПЗ, яке відповідає DFSG;
@@ -44,7 +43,6 @@ APT читає компоненти з:
 
 deb http://deb.debian.org/debian  bookworm main contrib non-free-firmware
 
-
 Тут дистрибутив — *bookworm*, а компоненти — *main*, *contrib*, *non-free-firmware*.
 
 ## Можливі переклади
@@ -59,6 +57,7 @@ deb http://deb.debian.org/debian  bookworm main contrib non-free-firmware
 ### «компонент»
 
 **За:**
+
 - усталений переклад у Debian/Ubuntu;
 - відповідає англійському component;
 - природно звучить у технічному контексті;
@@ -69,17 +68,20 @@ deb http://deb.debian.org/debian  bookworm main contrib non-free-firmware
   - компоненти main/contrib/non-free.
 
 **Проти:**
+
 - іншомовне походження, але це прийнятно для технічних термінів.
 
 ### «секція»
 
 **Проти:**
+
 - у Debian вже існує інший термін *section* (для класифікації пакунків: admin, utils, net, doc);
 - може спричинити плутанину.
 
 ### «розділ»
 
 **Проти:**
+
 - надто загальне слово;
 - не передає ліцензійної природи компонентів.
 
@@ -93,4 +95,3 @@ deb http://deb.debian.org/debian  bookworm main contrib non-free-firmware
   Секція — це класифікація пакунків (admin, utils, net), а компонент — це частина сховища (main, contrib, non-free).
 - Компоненти визначають доступність пакунків, але не їхній стан у системі.
 - Починаючи з Debian 12, прошивки винесені в окремий компонент `non-free-firmware`.
-
